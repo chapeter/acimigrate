@@ -62,20 +62,18 @@ def updateconfig():
 
 
     #TODO - move below to a function somewhere else
-    aci_switch_dict = {}
-    aci_switches = apic.list_switches()
-    for aci_switch in aci_switches:
-        if aci_switch.role == 'leaf':
-            switch_int_list = apic.get_switch_interfaces(aci_switch.node)
-            int_list = []
-            for int in switch_int_list:
-                int_list.append(int.attributes['id'])
-            aci_switch_dict[aci_switch.name] = int_list
+    #aci_switch_dict = {}
+    #aci_switches = apic.list_switches()
+    #for aci_switch in aci_switches:
+    #    if aci_switch.role == 'leaf':
+    #        switch_int_list = apic.get_switch_interfaces(aci_switch.node)
+    #        int_list = []
+    #        for int in switch_int_list:
+    #            int_list.append(int.attributes['id'])
+    #        aci_switch_dict[aci_switch.name] = int_list
 
     #print aci_switch_dict
-    return render_template('index.html', data=nexus.migration_dict()['vlans'], form=form,
-                           n1interfaces=nexus.free_interfaces(), n2interfaces=nexus2.free_interfaces(),
-                           aci_switch_list=aci_switch_dict)
+    return render_template('index.html', data=nexus.migration_dict()['vlans'], form=form)
 
 
 @app.route("/migrate", methods=('GET','POST'))
@@ -89,17 +87,17 @@ def domigrate():
     TENANT_NAME = request.form['tenant_name']
     APP_NAME = request.form['app_name']
 
-    n1i1 = request.form['n1i1']
-    n1i2 = request.form['n1i2']
-    n1_int_list = [n1i1, n1i2]
+    #n1i1 = request.form['n1i1']
+    #n1i2 = request.form['n1i2']
+    #n1_int_list = [n1i1, n1i2]
 
 
-    n2i1 = request.form['n2i1']
-    n2i2 = request.form['n2i2']
-    n2_int_list = [n2i1, n2i2]
+    #n2i1 = request.form['n2i1']
+    #n2i2 = request.form['n2i2']
+    #n2_int_list = [n2i1, n2i2]
 
     #TODO - remove repetes from n1_int_list and n2_int_list
 
     apic.migration_tenant(TENANT_NAME, APP_NAME)
-    result = migrate(nexus, apic, nexus2, auto=True, layer3=l3, n1_int_list=n1_int_list, n2_int_list=n2_int_list)
+    result = migrate(nexus, apic, nexus2, auto=True, layer3=l3)
     return render_template('completed.html', data=result)

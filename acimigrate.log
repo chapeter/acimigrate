@@ -1897,3 +1897,77 @@
 2016-01-07 16:26:21,834 - acimigrate.forms - INFO - Loading Forms
 2016-01-07 16:26:21,915 - acimigrate.tasks - INFO - Loading Tasks
 2016-01-07 16:26:21,916 - acimigrate.views - INFO - Loading Views
+2016-04-25 14:23:04,137 - acimigrate - CRITICAL - *************************
+2016-04-25 14:23:04,138 - acimigrate - CRITICAL - acimigrate is starting
+2016-04-25 14:23:04,138 - acimigrate - CRITICAL - *************************
+2016-04-25 14:23:04,161 - acimigrate.forms - INFO - Loading Forms
+2016-04-25 14:23:04,367 - acimigrate.tasks - INFO - Loading Tasks
+2016-04-25 14:23:04,367 - acimigrate.views - INFO - Loading Views
+2016-04-25 17:03:41,687 - acimigrate - CRITICAL - *************************
+2016-04-25 17:03:41,687 - acimigrate - CRITICAL - acimigrate is starting
+2016-04-25 17:03:41,687 - acimigrate - CRITICAL - *************************
+2016-04-25 17:03:41,699 - acimigrate.forms - INFO - Loading Forms
+2016-04-25 17:03:41,891 - acimigrate.tasks - INFO - Loading Tasks
+2016-04-25 17:03:41,891 - acimigrate.views - INFO - Loading Views
+2016-04-25 17:07:25,690 - acimigrate - CRITICAL - *************************
+2016-04-25 17:07:25,690 - acimigrate - CRITICAL - acimigrate is starting
+2016-04-25 17:07:25,690 - acimigrate - CRITICAL - *************************
+2016-04-25 17:07:25,707 - acimigrate.forms - INFO - Loading Forms
+2016-04-25 17:07:25,847 - acimigrate.tasks - INFO - Loading Tasks
+2016-04-25 17:07:25,848 - acimigrate.views - INFO - Loading Views
+2016-04-25 17:09:15,259 - acimigrate - CRITICAL - *************************
+2016-04-25 17:09:15,259 - acimigrate - CRITICAL - acimigrate is starting
+2016-04-25 17:09:15,259 - acimigrate - CRITICAL - *************************
+2016-04-25 17:09:15,266 - acimigrate.forms - INFO - Loading Forms
+2016-04-25 17:09:15,345 - acimigrate.tasks - INFO - Loading Tasks
+2016-04-25 17:09:15,345 - acimigrate.views - INFO - Loading Views
+2016-04-25 17:10:35,159 - acimigrate - CRITICAL - *************************
+2016-04-25 17:10:35,159 - acimigrate - CRITICAL - acimigrate is starting
+2016-04-25 17:10:35,159 - acimigrate - CRITICAL - *************************
+2016-04-25 17:10:35,164 - acimigrate.forms - INFO - Loading Forms
+2016-04-25 17:10:35,245 - acimigrate.tasks - INFO - Loading Tasks
+2016-04-25 17:10:35,245 - acimigrate.views - INFO - Loading Views
+2016-04-25 17:11:13,703 - acimigrate.tasks - INFO - Created EPG for vlan default
+2016-04-25 17:11:13,880 - acimigrate.tasks - INFO - Created EPG for vlan server
+2016-04-25 17:11:14,044 - acimigrate.tasks - INFO - Created EPG for vlan 1k-vtep
+2016-04-25 17:11:14,214 - acimigrate.tasks - INFO - Created EPG for vlan VLAN0999
+2016-04-25 17:11:14,386 - acimigrate.tasks - INFO - Created EPG for vlan VLAN0133
+2016-04-25 17:11:14,682 - acimigrate.tasks - INFO - Created EPG for vlan VLAN0123
+2016-04-25 17:11:14,853 - acimigrate.tasks - INFO - Created EPG for vlan VLAN0124
+2016-04-25 17:11:15,034 - acimigrate.tasks - INFO - Created EPG for vlan n1k-l3
+2016-04-26 13:59:51,235 - acimigrate - CRITICAL - *************************
+2016-04-26 13:59:51,235 - acimigrate - CRITICAL - acimigrate is starting
+2016-04-26 13:59:51,235 - acimigrate - CRITICAL - *************************
+2016-04-26 13:59:51,251 - acimigrate.forms - INFO - Loading Forms
+2016-04-26 13:59:51,460 - acimigrate.tasks - INFO - Loading Tasks
+2016-04-26 13:59:51,461 - acimigrate.views - INFO - Loading Views
+2016-04-26 14:00:07,497 - acimigrate - CRITICAL - *************************
+2016-04-26 14:00:07,498 - acimigrate - CRITICAL - acimigrate is starting
+2016-04-26 14:00:07,498 - acimigrate - CRITICAL - *************************
+2016-04-26 14:00:07,507 - acimigrate.forms - INFO - Loading Forms
+2016-04-26 14:00:07,672 - acimigrate.tasks - INFO - Loading Tasks
+2016-04-26 14:00:07,673 - acimigrate.views - INFO - Loading Views
+2016-04-26 14:01:09,654 - acimigrate.tasks - INFO - Created EPG for vlan default
+2016-04-26 14:01:09,723 - acimigrate.tasks - INFO - Created EPG for vlan server
+2016-04-26 14:01:09,747 - acimigrate.tasks - INFO - Layer 3 migration for server vlan completed
+2016-04-26 14:01:09,801 - acimigrate.tasks - INFO - Created EPG for vlan 1k-vtep
+2016-04-26 14:01:09,842 - acimigrate.tasks - INFO - Layer 3 migration for 1k-vtep vlan completed
+2016-04-26 14:01:09,923 - acimigrate.tasks - INFO - Created EPG for vlan VLAN0999
+2016-04-26 14:01:09,992 - acimigrate.tasks - INFO - Created EPG for vlan VLAN0133
+2016-04-26 14:01:10,049 - acimigrate.tasks - INFO - Created EPG for vlan VLAN0123
+2016-04-26 14:01:10,088 - acimigrate.tasks - INFO - Layer 3 migration for VLAN0123 vlan completed
+2016-04-26 14:01:10,126 - acimigrate.tasks - INFO - Layer 3 migration for VLAN0123 vlan completed
+2016-04-26 14:01:10,198 - acimigrate.tasks - INFO - Created EPG for vlan VLAN0124
+2016-04-26 14:01:10,274 - acimigrate.tasks - INFO - Created EPG for vlan n1k-l3
+2016-04-26 14:10:32,670 - acimigrate.tasks - INFO - Created EPG for vlan default
+2016-04-26 14:10:32,738 - acimigrate.tasks - INFO - Created EPG for vlan server
+2016-04-26 14:10:32,762 - acimigrate.tasks - INFO - Layer 3 migration for server vlan completed
+2016-04-26 14:10:32,828 - acimigrate.tasks - INFO - Created EPG for vlan 1k-vtep
+2016-04-26 14:10:32,891 - acimigrate.tasks - INFO - Layer 3 migration for 1k-vtep vlan completed
+2016-04-26 14:10:32,957 - acimigrate.tasks - INFO - Created EPG for vlan VLAN0999
+2016-04-26 14:10:33,020 - acimigrate.tasks - INFO - Created EPG for vlan VLAN0133
+2016-04-26 14:10:33,089 - acimigrate.tasks - INFO - Created EPG for vlan VLAN0123
+2016-04-26 14:10:33,142 - acimigrate.tasks - INFO - Layer 3 migration for VLAN0123 vlan completed
+2016-04-26 14:10:33,207 - acimigrate.tasks - INFO - Layer 3 migration for VLAN0123 vlan completed
+2016-04-26 14:10:33,274 - acimigrate.tasks - INFO - Created EPG for vlan VLAN0124
+2016-04-26 14:10:33,340 - acimigrate.tasks - INFO - Created EPG for vlan n1k-l3
