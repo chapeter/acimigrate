@@ -11,9 +11,6 @@ PyMySQL
 SQLAlchemy
 WTForms
 Werkzeug
-acicobra
-acimodel
-acitoolkit
 argparse
 dominate
 ecdsa
