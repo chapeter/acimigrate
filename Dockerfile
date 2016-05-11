@@ -15,7 +15,7 @@ RUN apt-get -y install libffi-dev
 
 #install download and run acimigrate
 WORKDIR /opt
-RUN git clone http://github.com/chapeter/acimigrate
+RUN git clone -d docker http://github.com/chapeter/acimigrate
 WORKDIR acimigrate
 RUN pip install -r requirements.txt
 EXPOSE 8000
