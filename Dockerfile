@@ -9,13 +9,13 @@ RUN apt-get -y install autoconf g++ python2.7-dev libxml2-dev libxslt1-dev zlib1
 RUN apt-get -y install build-essential libssl-dev
 RUN apt-get -y install libffi-dev
 #RUN apt-get -y install git python-pip 
-#RUN pip install --upgrade pip
+RUN pip install --upgrade pip
 
 
 
 #install download and run acimigrate
 WORKDIR /opt
-RUN git clone -d docker http://github.com/chapeter/acimigrate
+RUN git clone -b docker http://github.com/chapeter/acimigrate
 WORKDIR acimigrate
 RUN pip install -r requirements.txt
 EXPOSE 8000
