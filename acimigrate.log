@@ -2065,3 +2065,9 @@
 2016-05-10 15:26:40,381 - acimigrate.tasks - INFO - Layer 3 migration for VLAN0123 vlan completed
 2016-05-10 15:26:40,536 - acimigrate.tasks - INFO - Created EPG for vlan VLAN0124
 2016-05-10 15:26:40,707 - acimigrate.tasks - INFO - Created EPG for vlan n1k-l3
+2016-05-11 10:51:32,645 - acimigrate - CRITICAL - *************************
+2016-05-11 10:51:32,645 - acimigrate - CRITICAL - acimigrate is starting
+2016-05-11 10:51:32,645 - acimigrate - CRITICAL - *************************
+2016-05-11 10:51:32,662 - acimigrate.forms - INFO - Loading Forms
+2016-05-11 10:51:33,005 - acimigrate.tasks - INFO - Loading Tasks
+2016-05-11 10:51:33,005 - acimigrate.views - INFO - Loading Views

@@ -1,0 +1,6 @@
+2016-05-10 16:55:03,619 - acimigrate - CRITICAL - *************************
+2016-05-10 16:55:03,619 - acimigrate - CRITICAL - acimigrate is starting
+2016-05-10 16:55:03,619 - acimigrate - CRITICAL - *************************
+2016-05-10 16:55:03,763 - acimigrate.forms - INFO - Loading Forms
+2016-05-10 16:55:04,070 - acimigrate.tasks - INFO - Loading Tasks
+2016-05-10 16:55:04,071 - acimigrate.views - INFO - Loading Views
