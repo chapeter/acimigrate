@@ -11,9 +11,6 @@ PyMySQL
 SQLAlchemy
 WTForms
 Werkzeug
-acicobra
-acimodel
-acitoolkit
 argparse
 dominate
 ecdsa
@@ -30,5 +27,6 @@ six
 smmap
 tabulate
 visitor
+websocket-client
 websocket-client
 wsgiref
