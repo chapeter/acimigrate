@@ -1,9 +1,22 @@
+<<<<<<< HEAD
+=======
+Flask
+Flask-Admin
+Flask-Bootstrap
+Flask-HTTPAuth
+Flask-SQLAlchemy
+Flask-WTF
+>>>>>>> ba72bc518359daa10d31234e5a945f533586107e
 GitPython
 Jinja2
 MarkupSafe
 PyMySQL
 SQLAlchemy
 WTForms
+<<<<<<< HEAD
+=======
+Werkzeug
+>>>>>>> ba72bc518359daa10d31234e5a945f533586107e
 argparse
 dominate
 ecdsa
@@ -15,8 +28,17 @@ ncclient
 nxosNCRPC
 paramiko
 pycrypto
+<<<<<<< HEAD
+=======
+requests
+>>>>>>> ba72bc518359daa10d31234e5a945f533586107e
 six
 smmap
 tabulate
 visitor
+<<<<<<< HEAD
 websocket-client
+=======
+websocket-client
+wsgiref
+>>>>>>> ba72bc518359daa10d31234e5a945f533586107e
