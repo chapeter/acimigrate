@@ -39,7 +39,7 @@ RUN pip install websocket-client
 
 #install download and run acimigrate
 WORKDIR /opt
-RUN git clone -b docker http://github.com/chapeter/acimigrate
+RUN git clone http://github.com/chapeter/acimigrate
 WORKDIR acimigrate
 #RUN pip install -r requirements.txt
 EXPOSE 8000
