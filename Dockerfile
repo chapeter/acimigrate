@@ -1,5 +1,4 @@
 # VERSION 1.0
-<<<<<<< HEAD
 FROM dockercisco/acitoolkit
 MAINTAINER Chad Peterson, chapeter@cisco.com
 
@@ -43,7 +42,6 @@ WORKDIR /opt
 RUN git clone http://github.com/chapeter/acimigrate
 WORKDIR acimigrate
 #RUN pip install -r requirements.txt
-=======
 FROM dockercisco/acitoolkit 
 MAINTAINER Chad Peterson, chapeter@cisco.com
 
@@ -51,6 +49,5 @@ WORKDIR /opt
 RUN git clone http://github.com/chapeter/acimigrate
 WORKDIR acimigrate
 RUN pip install -r requirements.txt
->>>>>>> ba72bc518359daa10d31234e5a945f533586107e
 EXPOSE 8000
 CMD [ "python", "./main.py" ]
